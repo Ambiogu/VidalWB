@@ -298,7 +298,7 @@ footer .author {
 }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
 
 	.main {
 	width:95%;
@@ -307,14 +307,13 @@ footer .author {
 	margin-left: 10px;
 }
 	.headerImage {
-	width:10%;
+	width:30%;
 	height:auto;
 	padding: 0;
 	padding-top: 10px;
 	}
 
 	.headerList {
-		
 	margin: 0;
 	padding: 0;
 }	
