@@ -89,80 +89,57 @@ footer .author {
 	color: #121D85;
 }
 
-.otros {
-    margin-left: 30px;
-    display: inline;
-    float: left;
-    width: 85%;
-    background:#fff;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+
+
+footer {
+	width: 100%;
+	background:#fff;
+	float: left;
+	margin-top: 930px;
+	margin-bottom: 10px;
 }
 
-.20xe32gb {
-    float: left;
-    width:50%;
-    margin: 8px;
+footer .author {
+	text-align: center;
+	font-family: Arial Narrow, sans-serif;
+	font-size: 13px;
+	color: #121D85;
 }
-
-.note11s {
-    float: left;
-    width: 25%;
-    font-size: 15px;
-    text-align: center;
-    font-family: arial;
-    margin-left: 10px;
-    margin-top: 120px;
 }
-
-.iphoneXs256gb {
-    float: left;
-    width: 22%;
-    margin: 8px;
-}
-
-.X256txt {
-    float: left;
-    width: 25%;
-    font-size: 15px;
-    text-align: center;
-    font-family: arial;
-    margin-left: 10px;
-    margin-top: 110px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:820px){
 
@@ -218,13 +195,7 @@ footer .author {
 	color: #18249C;
 }
 
-.main {
-    background: #fff;
-    width: 13%;
-    display: inline-block;
-    margin: 0px;
-    float: left;
-}
+
 
 .main .telefonoslist {
     list-style-type: none;
@@ -236,7 +207,7 @@ footer .author {
 }
 
 .main .telefonoslist li {
-    display: inline;
+    display: inline-block;
 }
 
 .main .telefonoslist a {
@@ -244,51 +215,13 @@ footer .author {
     display: block;
 }
 
-.otros {
-    margin-left: 30px;
-    display: inline;
-    float: left;
-    width: 82%;
-    background:#fff;
-}
 
-.20xe32gb {
-    float: left;
-    width: 20%;
-    margin: 8px;
-}
-
-.note11s {
-    float: left;
-    width: 25%;
-    font-size: 15px;
-    text-align: center;
-    font-family: arial;
-    margin-left: 2px;
-    margin-top: 50px;
-}
-
-.iphoneXs256gb {
-    float: left;
-    width: 22%;
-    margin: 8px;
-}
-
-.X256txt {
-    float: left;
-    width: 25%;
-    font-size: 15px;
-    text-align: center;
-    font-family: arial;
-    margin-left: 2px;
-    margin-top: 50px;
-}
 
 footer {
 	width: 100%;
 	background:#fff;
 	float: left;
-	margin-top: 730px;
+	margin-top: 940px;
 	margin-bottom: 10px;
 }
 
@@ -366,46 +299,6 @@ aside .iphoneHeader {
     font-size: 12px;
 }
 
-.otros {
-    margin-left: 40px;
-    float: left;
-    background:#fff;
-    margin-top: 10px;
-}
-
-.20xe32gb {
-    float: left;
-    width: 90%;
-    margin-left: 15px;
-    border-radius: 5px;
-}
-
-.note11s {
-    float: left;
-    width: 25%;
-    font-size: 12px;
-    font-family: arial;
-    margin-left: 120px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.iphoneXs256gb {
-    float: left;
-    width: 93%;
-    margin-left: 10px;
-    border-radius: 5px;
-}
-
-.X256txt {
-    float: left;
-    width: 25%;
-    font-size: 12px;
-    font-family: arial;
-    margin-left: 120px;
-    margin-top: 20px;
-    text-align: center;
-}
 
 footer {
 	width: 100%;
@@ -442,7 +335,17 @@ footer .author {
 		
 	margin: 0;
 	padding: 0;
-}	
+}
+
+.main .telefonoslist a{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 2px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0; 
+    font-size:10px;
+}
 
 	.headerList a {
 	font-size: 10px;

@@ -115,6 +115,59 @@ footer .author {
 
 
 
+@media screen and (max-width:1024px){
+
+
+	aside {
+	width:95%;
+	margin:auto;
+	padding:5px;
+	border:none;
+	background:none;
+}
+
+	header .headerImage {
+	width:8%;
+	height:auto;
+	float:left;
+	padding-right:50px;
+}
+
+	aside .iphoneHeader {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align:center;
+	font-family: Arial Narrow, sans-serif;
+	font-size:20px;
+	color:#18249C;
+}
+
+	.main1 {
+	width:95%;
+	padding:5px;
+	box-sizing: border-box;
+	background:#B0ECFF;
+	border-radius:2%;
+	border:2px solid #E28200;
+	margin:5px;
+	margin-right: 20px;
+}
+
+	.main2 {
+	width:95%;
+	background:none;
+	border:none;
+	padding-bottom: 50px;
+}
+
+	.main2 .watchHeader{
+	color: #18249C;
+}
+
+footer {
+	margin-top:900px;
+}
+}
 
 
 @media screen and (max-width:820px){
@@ -263,7 +316,7 @@ footer {
 	width: 100%;
 	background:#fff;
 	float: left;
-	margin-top: 390px;
+	margin-top: 460px;
 	
 }
 
@@ -351,7 +404,7 @@ footer {
 	width: 100%;
 	background:#fff;
 	float: left;
-	margin-top: 220px;
+	margin-top: 280px;
 	
 }
 
