@@ -1,0 +1,304 @@
+
+.container {
+	width:100%;
+	max-width:1500px;
+	margin:0 auto;
+}
+
+
+body {
+	background:#BAC6E5; 
+}
+
+header {
+	background:#fff;
+	width:100%;
+
+}
+
+header .headerImage {
+	width:5.5%;
+	height:auto;
+	float:left;
+	padding-right:50px;
+}
+
+header ul {
+	list-style-type:none;
+
+}
+
+li {
+	display:inline;
+}
+
+a {
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	box-sizing: border-box;
+	font-size:17px;
+	list-style-type:none;
+	display:inline-block;
+	text-decoration:none;
+	color:#121D85;
+}
+
+
+.main {
+	width:50%;
+	margin-top:10px;
+	float:left;
+	padding:5px;
+	box-sizing: border-box;
+	background:#18249C;
+	border-radius:2%;
+	border:2px solid #E28200;
+}
+
+.main .iphonex {
+	width:70%;
+	border-radius:10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+aside {
+	width:50%;
+	float:left;
+	padding:5px;
+	box-sizing: border-box;
+	margin-top:100px;
+	border:2px solid #18249C;
+	border-radius:2%;
+	background:#EC9839;
+}
+
+aside .iphoneHeader {
+	text-align:center;
+	font-family: Arial Narrow, sans-serif;
+	font-size:20px;
+	color:#FFF;
+}
+
+.main1 {
+	width:50%;
+	margin-top:40px;
+	float:right;
+	padding:5px;
+	box-sizing: border-box;
+	background:#18249C;
+	border-radius:2%;
+	border:2px solid #E28200;
+
+}
+
+.main1 .watchImage {
+	width:70%;
+	border-radius:10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.main2 {
+	width:50%;
+	margin:auto;
+	margin-top:40px;
+	float:left;
+	padding:5px;
+	box-sizing: border-box;
+	border:2px solid #18249C;
+	border-radius:2%;
+	background:#EC9839;
+}
+.main2 .watchHeader{
+	text-align:center;
+	font-family: Arial Narrow, sans-serif;
+	font-size:20px;
+	color:#fff;
+}
+
+footer {
+	width: 100%;
+	background:#fff;
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+footer .author {
+	text-align: center;
+	font-family: Arial Narrow, sans-serif;
+	font-size: 13px;
+	color: #121D85;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:820px){
+
+	.main {
+	width:95%;
+	padding:5px;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+	aside {
+	width:95%;
+	margin:auto;
+	padding:5px;
+	border:none;
+	background:none;
+}
+
+	header .headerImage {
+	width:10%;
+	height:auto;
+	float:left;
+	padding-right:50px;
+}
+
+	aside .iphoneHeader {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align:center;
+	font-family: Arial Narrow, sans-serif;
+	font-size:20px;
+	color:#18249C;
+}
+
+	.main1 {
+	width:95%;
+	padding:5px;
+	box-sizing: border-box;
+	background:#B0ECFF;
+	border-radius:2%;
+	border:2px solid #E28200;
+	margin:5px;
+	margin-right: 20px;
+}
+
+	.main2 {
+	width:95%;
+	background:none;
+	border:none;
+	padding-bottom: 50px;
+}
+
+	.main2 .watchHeader{
+	color: #18249C;
+}
+}
+
+@media screen and (max-width:400px){
+
+	.main {
+	width:95%;
+	padding:5px;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+	.headerImage {
+	width:10%;
+	height:auto;
+	padding: 0;
+	padding-top: 10px;
+	}
+
+	.headerList {
+		
+	margin: 0;
+	padding: 0;
+}	
+
+	.headerList a {
+	font-size: 12px;
+	padding-left: 1px;
+}
+
+.main1 {
+	width: 95%;
+	margin-right: 10px;
+}
+
+aside .iphoneHeader {
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.main2 .watchHeader {
+	font-size: 15px;
+	padding-left: 10px;
+}
+}
+
+@media screen and (max-width:380px){
+
+	.main {
+	width:95%;
+	padding:5px;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+	.headerImage {
+	width:10%;
+	height:auto;
+	padding: 0;
+	padding-top: 10px;
+	}
+
+	.headerList {
+		
+	margin: 0;
+	padding: 0;
+}	
+
+	.headerList a {
+	font-size: 10px;
+	padding-left: 1px;
+}
+
+.main1 {
+	width: 95%;
+	margin-right: 10px;
+}
+
+aside .iphoneHeader {
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.main2 .watchHeader {
+	font-size: 15px;
+	padding-left: 10px;
+}
+}
+
