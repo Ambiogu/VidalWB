@@ -89,7 +89,7 @@ footer .author {
 	color: #121D85;
 }
 
-.samsung {
+.redmi {
     margin-left: 30px;
     display: inline;
     float: left;
@@ -97,20 +97,20 @@ footer .author {
     background:#fff;
 }
 
-.samsungnote8 {
+.redminote11s {
     float: left;
-    width: 25%;
+    width: 20%;
     margin: 8px;
 }
 
-.note8txt {
+.note11s {
     float: left;
     width: 25%;
     font-size: 15px;
     text-align: center;
     font-family: arial;
     margin-left: 10px;
-    margin-top: 110px;
+    margin-top: 120px;
 }
 
 .iphoneXs256gb {
@@ -244,7 +244,7 @@ footer .author {
     display: block;
 }
 
-.samsung {
+.redmi {
     margin-left: 30px;
     display: inline;
     float: left;
@@ -252,13 +252,13 @@ footer .author {
     background:#fff;
 }
 
-.samsungnote8 {
+.redminote11s {
     float: left;
     width: 20%;
     margin: 8px;
 }
 
-.note8txt {
+.note11s {
     float: left;
     width: 25%;
     font-size: 15px;
@@ -366,21 +366,21 @@ aside .iphoneHeader {
     font-size: 12px;
 }
 
-.samsung {
+.redmi {
     margin-left: 40px;
     float: left;
     background:#fff;
     margin-top: 10px;
 }
 
-.samsungnote8 {
+.redminote11s {
     float: left;
     width: 90%;
     margin-left: 15px;
     border-radius: 5px;
 }
 
-.note8txt {
+.note11s {
     float: left;
     width: 25%;
     font-size: 12px;
