@@ -70,7 +70,8 @@ a {
 
 .main .telefonoslist a:hover {
 	text-decoration: underline;
-	background: #8596B4;
+	background: #4D71D3;
+	color:#fff;
 }
 
 footer {
