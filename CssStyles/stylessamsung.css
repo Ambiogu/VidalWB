@@ -1,0 +1,466 @@
+.container {
+	width:100%;
+	max-width:1500px;
+	margin:0 auto;
+}
+
+body {
+	background:#BAC6E5; 
+}
+
+header {
+	background:#fff;
+	width:100%;
+}
+
+header .headerImage {
+	width:5.5%;
+	height:auto;
+	float:left;
+	padding-right:50px;
+}
+
+header ul {
+	list-style-type:none;
+}
+
+li {
+	display:inline;
+}
+
+a {
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	box-sizing: border-box;
+	font-size:17px;
+	list-style-type:none;
+	display:inline-block;
+	text-decoration:none;
+	color:#121D85;
+
+}
+
+.main {
+    background: #fff;
+    width: 13%;
+    display: inline-block;
+    margin: 0px;
+    float: left;
+}
+
+.main .telefonoslist {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+}
+
+.main .telefonoslist li {
+    display: inline;
+}
+
+.main .telefonoslist a {
+    padding: 25px;
+    display: block;
+}
+
+.main .telefonoslist a:hover {
+	text-decoration: underline;
+	background: #4D71D3;
+	color:#fff;
+}
+
+footer {
+	width: 100%;
+	background:#fff;
+	float: left;
+	margin-top: 502px;
+	margin-bottom: 10px;
+}
+
+footer .author {
+	text-align: center;
+	font-family: Arial Narrow, sans-serif;
+	font-size: 13px;
+	color: #121D85;
+}
+
+.samsung {
+    margin-left: 30px;
+    display: inline;
+    float: left;
+    width: 85%;
+    background:#fff;
+}
+
+.samsungnote8 {
+    float: left;
+    width: 25%;
+    margin: 8px;
+}
+
+.X64txt {
+    float: left;
+    width: 25%;
+    font-size: 15px;
+    text-align: center;
+    font-family: arial;
+    margin-left: 10px;
+    margin-top: 110px;
+}
+
+.iphoneXs256gb {
+    float: left;
+    width: 22%;
+    margin: 8px;
+}
+
+.X256txt {
+    float: left;
+    width: 25%;
+    font-size: 15px;
+    text-align: center;
+    font-family: arial;
+    margin-left: 10px;
+    margin-top: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:820px){
+
+	.main {
+	width:95%;
+	padding:5px;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+	aside {
+	width:95%;
+	margin:auto;
+	padding:5px;
+	border:none;
+	background:none;
+}
+
+	header .headerImage {
+	width:10%;
+	height:auto;
+	float:left;
+	padding-right:50px;
+}
+
+	aside .iphoneHeader {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align:center;
+	font-family: Arial Narrow, sans-serif;
+	font-size:20px;
+	color:#18249C;
+}
+
+	.main1 {
+	width:95%;
+	padding:5px;
+	box-sizing: border-box;
+	background:#B0ECFF;
+	border-radius:2%;
+	border:2px solid #E28200;
+	margin:5px;
+	margin-right: 20px;
+}
+
+	.main2 {
+	width:95%;
+	background:none;
+	border:none;
+	padding-bottom: 50px;
+}
+
+	.main2 .watchHeader{
+	color: #18249C;
+}
+
+.main {
+    background: #fff;
+    width: 13%;
+    display: inline-block;
+    margin: 0px;
+    float: left;
+}
+
+.main .telefonoslist {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+}
+
+.main .telefonoslist li {
+    display: inline;
+}
+
+.main .telefonoslist a {
+    padding: 25px;
+    display: block;
+}
+
+.samsung {
+    margin-left: 30px;
+    display: inline;
+    float: left;
+    width: 82%;
+    background:#fff;
+}
+
+.samsungnote8 {
+    float: left;
+    width: 20%;
+    margin: 8px;
+}
+
+.X64txt {
+    float: left;
+    width: 25%;
+    font-size: 15px;
+    text-align: center;
+    font-family: arial;
+    margin-left: 2px;
+    margin-top: 50px;
+}
+
+.iphoneXs256gb {
+    float: left;
+    width: 22%;
+    margin: 8px;
+}
+
+.X256txt {
+    float: left;
+    width: 25%;
+    font-size: 15px;
+    text-align: center;
+    font-family: arial;
+    margin-left: 2px;
+    margin-top: 50px;
+}
+
+footer {
+	width: 100%;
+	background:#fff;
+	float: left;
+	margin-top: 730px;
+	margin-bottom: 10px;
+}
+
+footer .author {
+	text-align: center;
+	font-family: Arial Narrow, sans-serif;
+	font-size: 13px;
+	color: #121D85;
+}
+}
+
+@media screen and (max-width:450px){
+
+	.main {
+	width:95%;
+	padding:5px;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+	.headerImage {
+	width:30%;
+	height:auto;
+	padding: 0;
+	padding-top: 10px;
+	}
+
+	.headerList {
+	margin: 0;
+	padding: 0;
+}	
+
+	.headerList a {
+	font-size: 12px;
+	padding-left: 1px;
+}
+
+.main1 {
+	width: 95%;
+	margin-right: 10px;
+}
+
+aside .iphoneHeader {
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.main2 .watchHeader {
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.main {
+    background: #fff;
+    width: 100%;
+    display: inline;
+    margin: 0px;
+    margin-top: 10px;
+
+}
+
+.main .telefonoslist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.main .telefonoslist li {
+    display: inline-block;
+}
+
+.main .telefonoslist a {
+    display: block;
+    font-size: 12px;
+}
+
+.samsung {
+    margin-left: 40px;
+    float: left;
+    background:#fff;
+    margin-top: 10px;
+}
+
+.samsungnote8 {
+    float: left;
+    width: 90%;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.X64txt {
+    float: left;
+    width: 25%;
+    font-size: 12px;
+    font-family: arial;
+    margin-left: 120px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.iphoneXs256gb {
+    float: left;
+    width: 93%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.X256txt {
+    float: left;
+    width: 25%;
+    font-size: 12px;
+    font-family: arial;
+    margin-left: 120px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+	width: 100%;
+	background:#fff;
+	float: left;
+	margin-top: 660px;
+	margin-bottom: 10px;
+}
+
+footer .author {
+	text-align: center;
+	font-family: Arial Narrow, sans-serif;
+	font-size: 13px;
+	color: #121D85;
+}
+}
+
+@media screen and (max-width:380px){
+
+	.main {
+	width:95%;
+	padding:5px;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+	.headerImage {
+	width:10%;
+	height:auto;
+	padding: 0;
+	padding-top: 10px;
+	}
+
+	.headerList {
+		
+	margin: 0;
+	padding: 0;
+}	
+
+	.headerList a {
+	font-size: 10px;
+	padding-left: 1px;
+}
+
+.main1 {
+	width: 95%;
+	margin-right: 10px;
+}
+
+aside .iphoneHeader {
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.main2 .watchHeader {
+	font-size: 15px;
+	padding-left: 10px;
+}
+}
